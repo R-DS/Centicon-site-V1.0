@@ -515,6 +515,21 @@ label {
     }
 }
 
+#centicon-map-google{
+    overflow: hidden;
+    padding-bottom: 70%;
+    position: relative;
+    height: 0;
+}
+
+#centicon-map-google iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
 
 @media only screen and (min-width: 640px) {
     #call_email_centicon{
