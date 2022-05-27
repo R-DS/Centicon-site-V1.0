@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <title>Review Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="contact2" id="review_centicon_construction">
+        <h1 class="title">Review Us</h1>
+        <div class="container">
+        <form id="contact-form-id" class="form" action="contact-form.php" method="POST" enctype="multipart/form-data">
+            <div class="contact-form row">
+                <div class="form-field col-lg-6">
+                    <label for="customer_name" class="label">name</label>
+                    <input id="customer_name" name="customer_name" class="input-text" type="text" required>
+                </div>
+
+                <div class="form-field col-lg-6">
+                    <label for="customer_email" class="label">email (optional)</label>
+                    <input id="customer_email" name="customer_email" class="input-text" type="email">
+                </div>
+
+                <div class="form-field-message col-lg-12">
+                    <a for="message2" class="label-contact-message">comments:</a>
+                    <label for="customer_message"></label><textarea id="customer_message" name="customer_message" class="input-text-message" type="text" rows="4"></textarea>
+                </div>
+
+                <div class="form-field col-lg-12 flex-box">
+                    <button name="submit" class="btn" type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="centicon.js"></script>
+</body>
+</html>
